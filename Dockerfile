@@ -9,6 +9,7 @@ RUN apt-get update \
         ca-certificates \
         bzip2 \
         libfontconfig \
+        ttf-wqy-zenhei \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
 
